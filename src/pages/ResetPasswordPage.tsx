@@ -116,7 +116,7 @@ const ResetPasswordPage = () => {
   if (checkingToken) {
     return (
       <div className="flex flex-col space-y-5 w-screen h-screen bg-gray-50 justify-center items-center">
-        <h1 className="text-4xl font-bold text-primary">ΜΣRΛΚΙ</h1>
+        <h1 className="text-4xl font-bold text-primary">Ling</h1>
         <h1 className="text-2xl font-semibold">Checking Token</h1>
         <p className="max-w-[400px] text-muted-foreground text-center">Please wait while we check the token.</p>
       </div>
@@ -126,7 +126,7 @@ const ResetPasswordPage = () => {
   if (!token || (!checkingToken && !isTokenValid)) {
     return (
       <div className="flex flex-col space-y-5 w-screen h-screen bg-gray-50 justify-center items-center">
-        <h1 className="text-4xl font-bold text-primary">ΜΣRΛΚΙ</h1>
+        <h1 className="text-4xl font-bold text-primary">Ling</h1>
         <h1 className="text-2xl font-semibold">Invalid Link</h1>
         <p className="max-w-[400px] text-muted-foreground text-center">
           The link you've used is invalid or expired. Please request a new link to reset your password.
@@ -137,7 +137,7 @@ const ResetPasswordPage = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-screen h-screen bg-gray-50 justify-center items-center">
-      <h1 className="text-4xl font-bold text-primary">ΜΣRΛΚΙ</h1>
+      <h1 className="text-4xl font-bold text-primary">Ling</h1>
       <h1 className="text-2xl font-semibold">Reset Password</h1>
       <p className="max-w-[400px] text-muted-foreground text-center">
         Please enter your new password. We recommend using a strong password that you're not using elsewhere.

@@ -81,7 +81,7 @@ const ForgotPasswordPage = () => {
   if (isSent) {
     return (
       <div className="flex flex-col space-y-5 w-screen h-screen bg-gray-50 justify-center items-center">
-        <h1 className="text-4xl font-bold text-primary">ΜΣRΛΚΙ</h1>
+        <h1 className="text-4xl font-bold text-primary">ling</h1>
         <MailCheck className="w-20 h-20 text-primary" />
         <h1 className="text-2xl font-semibold">Reset Password Link Sent</h1>
         <p className="max-w-[400px] text-muted-foreground text-center">
@@ -96,7 +96,7 @@ const ForgotPasswordPage = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-screen h-screen bg-gray-50 justify-center items-center">
-      <h1 className="text-4xl font-bold text-primary">ΜΣRΛΚΙ</h1>
+      <h1 className="text-4xl font-bold text-primary">Ling</h1>
       <h1 className="text-2xl font-semibold">Forgot Your Password?</h1>
       <p className="max-w-[400px] text-muted-foreground text-center">Enter your email address below to reset your password.</p>
 
